@@ -4,6 +4,8 @@ void main() {
   runApp(MyApp());
 }
 
+//
+// git remote add origin https://github.com/soniyav20/todo_app.git
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
