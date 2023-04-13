@@ -1,7 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.to_do_app">
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
    <application
-        android:label="to_do_app"
+        android:label="voice_to_text"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
